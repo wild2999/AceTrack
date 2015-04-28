@@ -82,70 +82,410 @@
   font-weight: 400;
   font-style: normal;
 }
-/* line 4, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 1, ../../../dev/sass/specifics/_header.scss */
+.header {
+  background: #205081;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #2e3d54;
+}
+/* line 6, ../../../dev/sass/specifics/_header.scss */
+.header .header__logo {
+  display: inline-block;
+  margin-top: 6px;
+  height: 1.7em;
+}
+/* line 10, ../../../dev/sass/specifics/_header.scss */
+.header .header__logo a {
+  background: url(/i/sprite-icons.png) no-repeat 0 0;
+  display: inline-block;
+  width: 35px;
+  height: 27px;
+}
+/* line 17, ../../../dev/sass/specifics/_header.scss */
+.header .header__logo-text {
+  font-family: "Latha";
+  display: inline-block;
+  margin-top: 9px;
+  vertical-align: top;
+  margin-right: .9em;
+}
+/* line 23, ../../../dev/sass/specifics/_header.scss */
+.header .header__logo-text h2 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: #fff;
+  margin: 0;
+}
+/* line 30, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 33, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list {
+  margin: 0;
+}
+/* line 35, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item {
+  font-family: 'Corbel';
+  display: inline-block;
+  padding: 0 .7em;
+  height: 39px;
+  cursor: pointer;
+  position: relative;
+}
+/* line 42, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item .header__menu-arrow-icon {
+  background: url(/i/sprite-icons.png) no-repeat -40px 0;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+/* line 48, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item:hover {
+  background: #296ca3;
+}
+/* line 51, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item:active {
+  text-decoration: none;
+}
+/* line 54, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item:hover .header__sub-list {
+  display: inline-block;
+  width: 150px;
+  background: #fff;
+  border: 1px solid #cbcbcb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 999999;
+}
+/* line 65, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item a {
+  color: #fff;
+  font-size: .8em;
+}
+/* line 68, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 73, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item .header__sub-list {
+  display: none;
+}
+/* line 75, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item .header__sub-list .header__sub-item {
+  line-height: 25px;
+}
+/* line 77, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item .header__sub-list .header__sub-item:hover {
+  background: #3b73af;
+}
+/* line 80, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item .header__sub-list .header__sub-item a {
+  color: #000;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+/* line 85, ../../../dev/sass/specifics/_header.scss */
+.header .header__block-menu .header__menu-list .header__menu-item .header__sub-list .header__sub-item:hover a {
+  color: #fff;
+}
+
+/* line 1, ../../../dev/sass/specifics/_footer.scss */
+.footer {
+  font-family: "Gisha";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -180px;
+}
+/* line 7, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__block-links-info {
+  font-size: .8em;
+  margin: 12px 0 0;
+}
+/* line 11, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__block-links-info .footer__list .footer__item {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+/* line 15, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__block-links-info .footer__list .footer__item:after {
+  content: '';
+  display: inline-block;
+  background: url(/i/sprite-icons.png) no-repeat -40px -40px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  right: -4px;
+  top: 30%;
+}
+/* line 25, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__block-links-info .footer__list .footer__item a {
+  color: #696969;
+}
+/* line 27, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__block-links-info .footer__list .footer__item a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #bababa;
+}
+/* line 33, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__block-links-info .footer__list .footer__item:last-child:after {
+  display: none;
+}
+/* line 40, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__solutions {
+  color: #696969;
+  font-size: 1.4em;
+}
+/* line 43, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__solutions .footer__logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 46, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__solutions .footer__logo span {
+  background: url(/i/sprite-icons.png) no-repeat 0 -30px;
+  display: inline-block;
+  width: 30px;
+  height: 23px;
+}
+/* line 53, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__solutions .footer__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 56, ../../../dev/sass/specifics/_footer.scss */
+.footer .footer__solutions .footer__text p {
+  font-weight: bold;
+}
+
+/* line 1, ../../../dev/sass/specifics/_base-width.scss */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* line 7, ../../../dev/sass/specifics/_base-width.scss */
+  .container {
+    width: 100%;
+  }
+}
+/* line 1, ../../../dev/sass/specifics/_special-styles.scss */
+body {
+  font-size: 16px;
+  background: #e7e7e7;
+}
+
+/* line 6, ../../../dev/sass/specifics/_special-styles.scss */
+.center {
+  text-align: center;
+}
+
+/* line 10, ../../../dev/sass/specifics/_special-styles.scss */
+.left {
+  text-align: left;
+}
+
+/* line 14, ../../../dev/sass/specifics/_special-styles.scss */
+.right {
+  text-align: right;
+}
+
+/* line 19, ../../../dev/sass/specifics/_special-styles.scss */
+section .container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin-top: 10px;
+  padding: 40px 0;
+}
+
+/* line 27, ../../../dev/sass/specifics/_special-styles.scss */
+input[type=text]:focus {
+  outline: none;
+  border-color: #cccccc;
+}
+
+/* line 2, ../../../dev/sass/specifics/_popups.scss */
+.input-group-addon span {
+  background: url(/i/sprite-icons.png) no-repeat -37px -9px;
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+}
+
+/* line 10, ../../../dev/sass/specifics/_popups.scss */
+.modal {
+  top: 150px;
+}
+
+/* line 14, ../../../dev/sass/specifics/_popups.scss */
+.modal-content {
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 19, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog {
+  width: 400px;
+}
+/* line 21, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog .modal-header {
+  font-family: 'Corbel';
+  padding: 8px 15px;
+  border-bottom: none;
+  background: #205081;
+  color: #fff;
+}
+/* line 27, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog .modal-header h4 {
+  font-size: 1em;
+}
+/* line 31, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog .modal-body {
+  font-family: 'Corbel';
+  padding: 15px 15px 0;
+}
+/* line 34, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog .modal-body .form-group {
+  width: 100%;
+}
+/* line 36, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog .modal-body .form-group .input-group {
+  width: inherit;
+}
+/* line 38, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog .modal-body .form-group .input-group .input-group-addon {
+  width: 10%;
+}
+/* line 43, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog .modal-body p {
+  color: #696969;
+  font-size: .9em;
+  padding: .5em 0 .8em;
+  margin: 0;
+}
+/* line 50, ../../../dev/sass/specifics/_popups.scss */
+.modal-dialog .modal-footer {
+  padding: 0 15px 15px;
+  border-top: none;
+}
+
+/* line 2, ../../../dev/sass/specifics/_table.scss */
+.table.table-hover thead {
+  font-weight: bold;
+}
+/* line 7, ../../../dev/sass/specifics/_table.scss */
+.table.table-hover tbody tr th {
+  font-weight: bold;
+}
+/* line 10, ../../../dev/sass/specifics/_table.scss */
+.table.table-hover tbody tr:last-child {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 13, ../../../dev/sass/specifics/_table.scss */
+.table.table-hover tbody tr td:first-of-type {
+  width: 23%;
+}
+/* line 16, ../../../dev/sass/specifics/_table.scss */
+.table.table-hover tbody tr td:nth-of-type(2) {
+  width: 40%;
+}
+
+/* line 3, ../../../dev/sass/specifics/_pagination.scss */
+.pagination-block .pagination-block__text {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Corbel';
+}
+/* line 8, ../../../dev/sass/specifics/_pagination.scss */
+.pagination-block nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: -25px;
+}
+
+/* line 1, ../../../dev/sass/specifics/_buttons.scss */
+.btn.btn-search, .sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group + button {
+  background: linear-gradient(to bottom, #fefefe, #f0f0f0);
+  border: 1px solid #cccccc;
+}
+
+/* line 5, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container {
   padding: 20px;
 }
-/* line 6, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 7, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container:first-child {
   background: #f5f5f5;
   border: 1px solid #cccccc;
 }
-/* line 10, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 11, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container:last-child {
   margin-top: 0;
   font-size: .9em;
 }
-/* line 14, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 15, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group {
   padding-right: 10px;
 }
-/* line 17, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 18, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:first-child .dropdown {
   width: 215px;
 }
-/* line 19, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 20, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:first-child .dropdown .dropdown-menu {
   width: 400px;
 }
-/* line 21, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 22, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child {
   padding: 10px 12px 10px 20px;
 }
-/* line 24, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 25, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group {
   width: 40%;
   padding: 0;
 }
-/* line 30, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 31, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group:last-of-type {
   padding-left: 6px;
 }
-/* line 33, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 34, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group .form-control {
   border-right: none;
   border-radius: 0;
   box-shadow: none;
 }
-/* line 38, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 39, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group .input-group-addon {
   padding: 6px 7px 7px 9px;
   border-radius: 0;
 }
-/* line 47, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 48, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:last-child {
   float: right;
   padding-right: 0;
 }
-/* line 50, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 51, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:last-child .dropdown {
   width: 60px;
 }
-/* line 53, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 54, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group:last-child .dropdown li a {
   text-align: center;
 }
-/* line 60, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 61, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group .dropdown button {
   background: #f5f5f5;
   border: 1px solid #cccccc;
@@ -154,34 +494,34 @@
   width: inherit;
   text-align: left;
 }
-/* line 67, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 68, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group .dropdown button .caret {
   float: right;
   margin-top: 9px;
 }
-/* line 72, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 73, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group .dropdown .dropdown-menu {
   min-width: 0;
   width: inherit;
 }
-/* line 75, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 76, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group .dropdown .dropdown-menu li {
   text-indent: -3px;
 }
-/* line 77, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 78, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-group .dropdown .dropdown-menu li:nth-child(even) {
   margin: 7px 15px;
 }
-/* line 84, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 85, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .input-group-addon.user, .sessions-log .container .input-group-addon.search {
   background: #fff;
   padding: 8px 7px 8px 9px;
 }
-/* line 87, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 88, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .input-group-addon.user i, .sessions-log .container .input-group-addon.search i {
   color: #cccccc;
 }
-/* line 94, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 95, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log .container .form-control.user, .sessions-log .container .form-control.search {
   border-left: none;
   box-shadow: none;
@@ -189,59 +529,18 @@
   font: 'Corbel' 1em bold;
 }
 
-/* line 106, ../../../dev/pages/sessions-log/sessions-log.scss */
-.btn.btn-search, .sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group + button {
-  background: linear-gradient(to bottom, #fefefe, #f0f0f0);
-  border: 1px solid #cccccc;
-}
-
-/* line 112, ../../../dev/pages/sessions-log/sessions-log.scss */
-.pagination-block .pagination-block__text {
-  display: inline-block;
-  vertical-align: top;
-  font-family: 'Corbel';
-}
-/* line 117, ../../../dev/pages/sessions-log/sessions-log.scss */
-.pagination-block nav {
-  display: inline-block;
-  vertical-align: top;
-  float: right;
-  margin-top: -25px;
-}
-
-/* line 126, ../../../dev/pages/sessions-log/sessions-log.scss */
-.table.table-hover thead {
-  font-weight: bold;
-}
-/* line 131, ../../../dev/pages/sessions-log/sessions-log.scss */
-.table.table-hover tbody tr th {
-  font-weight: bold;
-}
-/* line 134, ../../../dev/pages/sessions-log/sessions-log.scss */
-.table.table-hover tbody tr:last-child {
-  border-bottom: 1px solid #cccccc;
-}
-/* line 137, ../../../dev/pages/sessions-log/sessions-log.scss */
-.table.table-hover tbody tr td:first-of-type {
-  width: 23%;
-}
-/* line 140, ../../../dev/pages/sessions-log/sessions-log.scss */
-.table.table-hover tbody tr td:nth-of-type(2) {
-  width: 40%;
-}
-
-/* line 147, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 107, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log__top-bar {
   border-bottom: 1px solid #bfbfbf;
 }
-/* line 149, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 109, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log__top-bar .sessions-log__timer {
   display: inline-block;
   font-size: 2.6em;
   color: #696969;
   margin: -10px 0 10px 0;
 }
-/* line 155, ../../../dev/pages/sessions-log/sessions-log.scss */
+/* line 115, ../../../dev/pages/sessions-log/sessions-log.scss */
 .sessions-log__top-bar .sessions-log__btn-close {
   float: right;
   display: inline-block;

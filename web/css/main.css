@@ -9007,3 +9007,44 @@ input[type=text]:focus {
   padding: 0 15px 15px;
   border-top: none;
 }
+
+/* line 2, ../../dev/sass/specifics/_table.scss */
+.table.table-hover thead {
+  font-weight: bold;
+}
+/* line 7, ../../dev/sass/specifics/_table.scss */
+.table.table-hover tbody tr th {
+  font-weight: bold;
+}
+/* line 10, ../../dev/sass/specifics/_table.scss */
+.table.table-hover tbody tr:last-child {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 13, ../../dev/sass/specifics/_table.scss */
+.table.table-hover tbody tr td:first-of-type {
+  width: 23%;
+}
+/* line 16, ../../dev/sass/specifics/_table.scss */
+.table.table-hover tbody tr td:nth-of-type(2) {
+  width: 40%;
+}
+
+/* line 3, ../../dev/sass/specifics/_pagination.scss */
+.pagination-block .pagination-block__text {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Corbel';
+}
+/* line 8, ../../dev/sass/specifics/_pagination.scss */
+.pagination-block nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: -25px;
+}
+
+/* line 1, ../../dev/sass/specifics/_buttons.scss */
+.btn.btn-search {
+  background: linear-gradient(to bottom, #fefefe, #f0f0f0);
+  border: 1px solid #cccccc;
+}

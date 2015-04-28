@@ -1,0 +1,13 @@
+/* line 3, ../../../dev/sass/specifics/pagination.scss */
+.pagination-block .pagination-block__text {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Corbel';
+}
+/* line 8, ../../../dev/sass/specifics/pagination.scss */
+.pagination-block nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: -25px;
+}

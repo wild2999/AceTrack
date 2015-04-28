@@ -1,0 +1,21 @@
+.table.table-hover {
+  thead {
+    font-weight: bold;
+  }
+  tbody {
+    tr {
+      th {
+        font-weight: bold;
+      }
+      &:last-child {
+        border-bottom: 1px solid $color-icon-default;
+      }
+      td:first-of-type {
+        width: 23%;
+      }
+      td:nth-of-type(2) {
+        width: 40%;
+      }
+    }
+  }
+}

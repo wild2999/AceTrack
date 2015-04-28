@@ -1,4 +1,5 @@
 @import '../../sass/base/__base';
+@import '../../sass/specifics/__specifics';
 
 .sessions-log {
   .container {
@@ -99,47 +100,6 @@
     }
     .form-control.search {
       @extend .form-control.user;
-    }
-  }
-}
-
-.btn.btn-search {
-  background: linear-gradient(to bottom, #fefefe, #f0f0f0);
-  border: 1px solid $color-icon-default;
-}
-
-.pagination-block {
-  .pagination-block__text {
-    display: inline-block;
-    vertical-align: top;
-    font-family: 'Corbel';
-  }
-  nav {
-    display: inline-block;
-    vertical-align: top;
-    float: right;
-    margin-top: -25px;
-  }
-}
-
-.table.table-hover {
-  thead {
-    font-weight: bold;
-  }
-  tbody {
-    tr {
-      th {
-        font-weight: bold;
-      }
-      &:last-child {
-        border-bottom: 1px solid $color-icon-default;
-      }
-      td:first-of-type {
-        width: 23%;
-      }
-      td:nth-of-type(2) {
-        width: 40%;
-      }
     }
   }
 }
