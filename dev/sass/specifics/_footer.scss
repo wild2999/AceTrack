@@ -1,0 +1,61 @@
+.footer {
+  font-family: "Gisha";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -180px;
+  .footer__block-links-info {
+    font-size: .8em;
+    margin: 12px 0 0;
+    .footer__list {
+      .footer__item {
+        display: inline-block;
+        padding: 0 15px;
+        position: relative;
+        &:after {
+          content: '';
+          display: inline-block;
+          background: url(/i/sprite-icons.png) no-repeat -40px -40px;
+          width: 7px;
+          height: 7px;
+          position: absolute;
+          right: -4px;
+          top: 30%;
+        }
+        a {
+          color: $text-color;
+          &:hover {
+            text-decoration: none;
+            border-bottom: 2px solid $border-color;
+          }
+        }
+        &:last-child {
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .footer__solutions {
+    color: $text-color;
+    font-size: 1.4em;
+    .footer__logo {
+      display: inline-block;
+      vertical-align: middle;
+      span {
+        background: url(/i/sprite-icons.png) no-repeat 0 -30px;
+        display: inline-block;
+        width: 30px;
+        height: 23px;
+      }
+    }
+    .footer__text {
+      display: inline-block;
+      vertical-align: middle;
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AceTrack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="main-area">
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="pages/index/index.html"></a>
+                </div>
+                <div class="header__logo-text">
+                    <h2>Track</h2>
+                </div>
+                <div class="header__block-menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#">
+                                Working Sessions
+                            </a>
+                            <span class="header__menu-arrow-icon"></span>
+                            <ul class="header__sub-list">
+                                <li class="header__sub-item">
+                                    <a href="#">Current Session</a>
+                                </li>
+                                <li class="header__sub-item">
+                                    <a href="#">Log</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#">
+                                Task Tracking
+                            </a>
+                            <span class="header__menu-arrow-icon"></span>
+                            <ul class="header__sub-list">
+                                <li class="header__sub-item"><a href="#">Overview</a></li>
+                                <li class="header__sub-item"><a href="#">Tasks board</a></li>
+                                <li class="header__sub-item"><a href="#">Bench</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#">
+                                Wiki
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#">
+                                Chat
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="general-page">
+            <div class="container center">
+                <div class="general-page__big-image">
+                    <img src="/i/big-image.png" alt=""/>
+                </div>
+                <div class="general-page__text">
+                    <p>
+                        To have  an  opportunity to interact with system actions
+                        please start a new session
+                    </p>
+                </div>
+                <div class="general-page__block-btn">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Start Session</button>
+                    <button type="button" class="btn btn-primary">Continue Monitoring</button>
+                </div>
+            </div>
+        </section>
+        <footer class="footer center">
+            <div class="footer__block-links-info">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#">Powered by Ace Solutions</a></li>
+                    <li class="footer__item"><a href="#">Faq</a></li>
+                    <li class="footer__item"><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer__solutions">
+                <div class="footer__logo">
+                    <span class="footer__logo-image"></span>
+                </div>
+                <div class="footer__text">
+                    <p>Ace Solutions</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Start New Session</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                                <div class="input-group-addon">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <p>Please select date and time of new session start.</p>
+                </div>
+                <div class="modal-footer left">
+                    <button type="button" class="btn btn-success">Start Session</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/vendor/jquery.min.js"></script>
+    <script src="/js/vendor/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

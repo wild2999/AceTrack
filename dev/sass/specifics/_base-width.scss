@@ -1,0 +1,10 @@
+.container {
+  width: $base-width;
+  margin: 0 auto;
+}
+
+@media (max-width: $base-width) {
+  .container {
+    width: 100%;
+  }
+}

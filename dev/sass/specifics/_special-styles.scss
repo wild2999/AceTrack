@@ -1,0 +1,30 @@
+body {
+  font-size: $base-font-size;
+  background: $bg-body;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+section {
+  .container {
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    background: $white;
+    margin-top: 10px;
+    padding: 40px 0;
+  }
+}
+
+input[type=text]:focus {
+  outline: none;
+  border-color: $color-icon-default;
+}

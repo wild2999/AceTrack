@@ -1,0 +1,93 @@
+.header {
+  background: $bg-header;
+  height: $heidht-header;
+  line-height: $heidht-header;
+  border-bottom: 1px solid $border-blue-dark;
+  .header__logo {
+    display: inline-block;
+    margin-top: 6px;
+    height: 1.7em;
+    a {
+      background: url(/i/sprite-icons.png) no-repeat 0 0;
+      display: inline-block;
+      width: 35px;
+      height: 27px;
+    }
+  }
+  .header__logo-text {
+    font-family: "Latha";
+    display: inline-block;
+    margin-top: 9px;
+    vertical-align: top;
+    margin-right: .9em;
+    h2 {
+      text-transform: uppercase;
+      font-size: 1.2em;
+      color: $white;
+      margin: 0;
+    }
+  }
+  .header__block-menu {
+    display: inline-block;
+    vertical-align: top;
+    .header__menu-list {
+      margin: 0;
+      .header__menu-item {
+        font-family: 'Corbel';
+        display: inline-block;
+        padding: 0 .7em;
+        height: $heidht-header - 1px;
+        cursor: pointer;
+        position: relative;
+        .header__menu-arrow-icon {
+          background: url(/i/sprite-icons.png) no-repeat -40px 0;
+          display: inline-block;
+          width: 10px;
+          height: 7px;
+        }
+        &:hover {
+          background: $bg-item-hover;
+        }
+        &:active {
+          text-decoration: none;
+        }
+        &:hover .header__sub-list {
+          display: inline-block;
+          width: 150px;
+          background: $white;
+          border: 1px solid #cbcbcb;
+          box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+          position: absolute;
+          top: $heidht-header;
+          left: 0;
+          z-index: 999999;
+        }
+        a {
+          color: $white;
+          font-size: .8em;
+          &:hover {
+            text-decoration: none;
+            color: $white;
+          }
+        }
+        .header__sub-list {
+          display: none;
+          .header__sub-item {
+            line-height: 25px;
+            &:hover {
+              background: $bg-item-drop-down;
+            }
+            a {
+              color: $black;
+              vertical-align: middle;
+              padding-left: 10px;
+            }
+            &:hover a {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

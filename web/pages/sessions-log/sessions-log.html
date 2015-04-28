@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AceTrack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="sessions-log.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="main-area">
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <a href="index.html"></a>
+            </div>
+            <div class="header__logo-text">
+                <h2>Track</h2>
+            </div>
+            <div class="header__block-menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="#">
+                            Working Sessions
+                        </a>
+                        <span class="header__menu-arrow-icon"></span>
+                        <ul class="header__sub-list">
+                            <li class="header__sub-item">
+                                <a href="#">Current Session</a>
+                            </li>
+                            <li class="header__sub-item">
+                                <a href="#">Log</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#">
+                            Task Tracking
+                        </a>
+                        <span class="header__menu-arrow-icon"></span>
+                        <ul class="header__sub-list">
+                            <li class="header__sub-item"><a href="#">Overview</a></li>
+                            <li class="header__sub-item"><a href="#">Tasks board</a></li>
+                            <li class="header__sub-item"><a href="#">Bench</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#">
+                            Wiki
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#">
+                            Chat
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="sessions-log">
+        <div class="container">
+            <div class="sessions-log__header">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <div class="dropdown">
+                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                All Dates
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control">
+                                            <div class="input-group-addon user">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    -
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control">
+                                            <div class="input-group-addon user">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Done
+                                    </button>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Action</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Action</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Action</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Action</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Action</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Action</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Action</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon user">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <input type="text" class="form-control user" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon search">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <input type="text" class="form-control search" placeholder="Order ID">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-search">Search</button>
+                    <div class="form-group">
+                        <div class="dropdown">
+                            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                10
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">10</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">15</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">20</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">50</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sessions-log__body">
+                <div class="sessions-log__top-bar">
+                    <div class="sessions-log__timer">
+                        <span>03:42</span>
+                    </div>
+                    <div class="sessions-log__btn-close">
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#closeSession">Close Session</button>
+                    </div>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Action</th>
+                        <th>User Time</th>
+                        <th>System Time</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins AdminAdmin</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">523</th>
+                        <td>Alexey Bulkins</td>
+                        <td>Started new session</td>
+                        <td>Apr 23, 2015 21:34</td>
+                        <td>Apr 23, 2015 21:38</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination-block">
+                <span class="pagination-block__text">Showing 1 to 10 of 27,286 entries</span>
+                <nav>
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer center">
+        <div class="footer__block-links-info">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#">Powered by Ace Solutions</a></li>
+                <li class="footer__item"><a href="#">Faq</a></li>
+                <li class="footer__item"><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div class="footer__solutions">
+            <div class="footer__logo">
+                <span class="footer__logo-image"></span>
+            </div>
+            <div class="footer__text">
+                <p>Ace Solutions</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Start New Session</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                            <div class="input-group-addon">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <p>Please select date and time of new session start.</p>
+            </div>
+            <div class="modal-footer left">
+                <button type="button" class="btn btn-success">Start Session</button>
+                <button type="button" class="btn btn-danger">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="closeSession" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="closeSessionLabel">Close Session</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="closeSessionInputAmount" placeholder="Amount">
+                            <div class="input-group-addon">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <p>Please select date and time of new session start.</p>
+            </div>
+            <div class="modal-footer left">
+                <button type="button" class="btn btn-success">Close Session</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal" >Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/vendor/jquery.min.js"></script>
+<script src="/js/vendor/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

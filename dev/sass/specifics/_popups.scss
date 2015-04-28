@@ -1,0 +1,55 @@
+.input-group-addon {
+  span {
+    background: url(/i/sprite-icons.png) no-repeat -37px -9px;
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+  }
+}
+
+.modal {
+  top: 150px;
+}
+
+.modal-content {
+  border-radius: 0;
+  @include vendor-prefix(box-shadow, 0 0 10px rgba(0,0,0,.1));
+}
+
+.modal-dialog {
+  width: 400px;
+  .modal-header {
+    font-family: 'Corbel';
+    padding: 8px 15px;
+    border-bottom: none;
+    background: $bg-header;
+    color: $white;
+    h4 {
+      font-size: 1em;
+    }
+  }
+  .modal-body {
+    font-family: 'Corbel';
+    padding: 15px 15px 0;
+    .form-group {
+      width: 100%;
+      .input-group {
+        width: inherit;
+        .input-group-addon {
+          width: 10%;
+        }
+      }
+    }
+    p {
+      color: $text-color;
+      font-size: .9em;
+      padding: .5em 0 .8em;
+      margin: 0;
+    }
+  }
+  .modal-footer {
+    padding: 0 15px 15px;
+    border-top: none;
+  }
+}
+

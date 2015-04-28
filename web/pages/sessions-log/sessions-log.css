@@ -1,0 +1,248 @@
+@font-face {
+  font-family: 'Corbel';
+  src: url("../fonts/Corbel.eot");
+  src: url("../fonts/Corbel.woff") format("woff"), url("../fonts/Corbel.ttf") format("truetype"), url("../fonts/Corbel.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Corbel';
+  src: url("../fonts/Corbel.eot");
+  src: url("../fonts/Corbel.woff") format("woff"), url("../fonts/Corbel.ttf") format("truetype"), url("../fonts/Corbel.svg#brandon_grotesquebold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Corbel';
+  src: url("../fonts/Corbel.eot");
+  src: url("../fonts/Corbel.woff") format("woff"), url("../fonts/Corbel.ttf") format("truetype"), url("../fonts/Corbel.svg#brandon_grotesquebold") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Latha';
+  src: url("../fonts/Latha.eot");
+  src: url("../fonts/Latha.woff") format("woff"), url("../fonts/Latha.ttf") format("truetype"), url("../fonts/Latha.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Latha';
+  src: url("../fonts/Latha.eot");
+  src: url("../fonts/Latha.woff") format("woff"), url("../fonts/Latha.ttf") format("truetype"), url("../fonts/Latha.svg#brandon_grotesquebold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Latha';
+  src: url("../fonts/Latha.eot");
+  src: url("../fonts/Latha.woff") format("woff"), url("../fonts/Latha.ttf") format("truetype"), url("../fonts/Latha.svg#brandon_grotesquebold") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gisha';
+  src: url("../fonts/Gisha.eot");
+  src: url("../fonts/Gisha.woff") format("woff"), url("../fonts/Gisha.ttf") format("truetype"), url("../fonts/Gisha.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gisha';
+  src: url("../fonts/Gisha.eot");
+  src: url("../fonts/Gisha.woff") format("woff"), url("../fonts/Gisha.ttf") format("truetype"), url("../fonts/Gisha.svg#brandon_grotesquebold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gisha';
+  src: url("../fonts/Gisha.eot");
+  src: url("../fonts/Gisha.woff") format("woff"), url("../fonts/Gisha.ttf") format("truetype"), url("../fonts/Gisha.svg#brandon_grotesquebold") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font-Awesome';
+  src: url("../fonts/fontawesome-webfont.eot");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font-Awesome';
+  src: url("../fonts/fontawesome-webfont.eot");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font-Awesome';
+  src: url("../fonts/fontawesome-webfont.eot");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+/* line 4, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container {
+  padding: 20px;
+}
+/* line 6, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container:first-child {
+  background: #f5f5f5;
+  border: 1px solid #cccccc;
+}
+/* line 10, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container:last-child {
+  margin-top: 0;
+  font-size: .9em;
+}
+/* line 14, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group {
+  padding-right: 10px;
+}
+/* line 17, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:first-child .dropdown {
+  width: 215px;
+}
+/* line 19, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:first-child .dropdown .dropdown-menu {
+  width: 400px;
+}
+/* line 21, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child {
+  padding: 10px 12px 10px 20px;
+}
+/* line 24, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group {
+  width: 40%;
+  padding: 0;
+}
+/* line 30, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group:last-of-type {
+  padding-left: 6px;
+}
+/* line 33, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group .form-control {
+  border-right: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+/* line 38, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group .input-group-addon {
+  padding: 6px 7px 7px 9px;
+  border-radius: 0;
+}
+/* line 47, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:last-child {
+  float: right;
+  padding-right: 0;
+}
+/* line 50, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:last-child .dropdown {
+  width: 60px;
+}
+/* line 53, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group:last-child .dropdown li a {
+  text-align: center;
+}
+/* line 60, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group .dropdown button {
+  background: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: inherit;
+  text-align: left;
+}
+/* line 67, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group .dropdown button .caret {
+  float: right;
+  margin-top: 9px;
+}
+/* line 72, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group .dropdown .dropdown-menu {
+  min-width: 0;
+  width: inherit;
+}
+/* line 75, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group .dropdown .dropdown-menu li {
+  text-indent: -3px;
+}
+/* line 77, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-group .dropdown .dropdown-menu li:nth-child(even) {
+  margin: 7px 15px;
+}
+/* line 84, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .input-group-addon.user, .sessions-log .container .input-group-addon.search {
+  background: #fff;
+  padding: 8px 7px 8px 9px;
+}
+/* line 87, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .input-group-addon.user i, .sessions-log .container .input-group-addon.search i {
+  color: #cccccc;
+}
+/* line 94, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log .container .form-control.user, .sessions-log .container .form-control.search {
+  border-left: none;
+  box-shadow: none;
+  padding-left: 0;
+  font: 'Corbel' 1em bold;
+}
+
+/* line 106, ../../../dev/pages/sessions-log/sessions-log.scss */
+.btn.btn-search, .sessions-log .container .form-group:first-child .dropdown .dropdown-menu li:first-child .form-group + button {
+  background: linear-gradient(to bottom, #fefefe, #f0f0f0);
+  border: 1px solid #cccccc;
+}
+
+/* line 112, ../../../dev/pages/sessions-log/sessions-log.scss */
+.pagination-block .pagination-block__text {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Corbel';
+}
+/* line 117, ../../../dev/pages/sessions-log/sessions-log.scss */
+.pagination-block nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: -25px;
+}
+
+/* line 126, ../../../dev/pages/sessions-log/sessions-log.scss */
+.table.table-hover thead {
+  font-weight: bold;
+}
+/* line 131, ../../../dev/pages/sessions-log/sessions-log.scss */
+.table.table-hover tbody tr th {
+  font-weight: bold;
+}
+/* line 134, ../../../dev/pages/sessions-log/sessions-log.scss */
+.table.table-hover tbody tr:last-child {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 137, ../../../dev/pages/sessions-log/sessions-log.scss */
+.table.table-hover tbody tr td:first-of-type {
+  width: 23%;
+}
+/* line 140, ../../../dev/pages/sessions-log/sessions-log.scss */
+.table.table-hover tbody tr td:nth-of-type(2) {
+  width: 40%;
+}
+
+/* line 147, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log__top-bar {
+  border-bottom: 1px solid #bfbfbf;
+}
+/* line 149, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log__top-bar .sessions-log__timer {
+  display: inline-block;
+  font-size: 2.6em;
+  color: #696969;
+  margin: -10px 0 10px 0;
+}
+/* line 155, ../../../dev/pages/sessions-log/sessions-log.scss */
+.sessions-log__top-bar .sessions-log__btn-close {
+  float: right;
+  display: inline-block;
+}

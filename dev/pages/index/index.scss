@@ -1,0 +1,23 @@
+@import '../../sass/base/__base';
+
+.general-page {
+  .general-page__big-image {
+    display: inline-block;
+  }
+  .general-page__text {
+    padding: 20px 0 10px;
+    p {
+      font-family: "Corbel";
+      color: $text-color;
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
+  .general-page__block-btn {
+    button {
+      margin: 0 3px;
+    }
+  }
+}
+
+
